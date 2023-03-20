@@ -1,4 +1,4 @@
-package info.sanaebadi.PhotozClon;
+package info.sanaebadi.PhotozClon.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.validation.constraints.NotEmpty;
@@ -15,5 +15,5 @@ public class Photo {
     private String fileName;
     @JsonIgnore
     private byte[] data;
-
+    private String contentType;
 }
